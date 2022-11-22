@@ -1,3 +1,12 @@
-body {
-    background: #000;
+.header {
+    background: rgba(0, 0, 0, .05);
+}
+.header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+    .header__link {
+        font-size: 18px;
+    }
 }
