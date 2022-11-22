@@ -60,3 +60,24 @@ body {
 .header-block .header__link {
   font-size: 18px;
 }
+
+.navigation {
+  padding: 30px 0;
+}
+.navigation .navigation-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation .navigation-block .navigation__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation .navigation-block .navigation__link:last-child {
+  color: #EAEC82;
+}
+.navigation .navigation-block .navigation__span:not(:last-child)::after {
+  content: "/";
+  margin: 0 15px;
+}
