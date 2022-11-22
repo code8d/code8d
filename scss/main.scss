@@ -62,7 +62,7 @@
                     object-position: center;
                 }
                 .lines__color {
-                    fill: #f5f5f5;
+                    fill: #6B6B6B;
                     transition: .3s ease;
                 }
             }
@@ -72,11 +72,11 @@
                 bottom: 35px;
                 font-family: 'Varela Round';
                 font-size: 20px;
-                color: #f5f5f5;
+                color: #6B6B6B;
                 transition: .3s ease;
             }
             &:hover {
-                background: #f5f5f5;
+                background: #ececec;
                 .name {
                     color: #1e1e1e;
                 }

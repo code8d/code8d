@@ -128,7 +128,7 @@ body {
      object-position: center;
 }
 .content-block .item-block .item .item__lines .lines__color {
-  fill: #f5f5f5;
+  fill: #6B6B6B;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -138,12 +138,12 @@ body {
   bottom: 35px;
   font-family: "Varela Round";
   font-size: 20px;
-  color: #f5f5f5;
+  color: #6B6B6B;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 .content-block .item-block .item:hover {
-  background: #f5f5f5;
+  background: #ececec;
 }
 .content-block .item-block .item:hover .name {
   color: #1e1e1e;
